@@ -1,5 +1,18 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Get your API KEY
+
+For this app to work, you need a Google API-Key.
+To get your API KEY go to:
+
+https://console.developers.google.com
+
+## Add .env file
+
+Once you have your API-Key, create an .env file in project root folder with this key pair:
+
+REACT_APP_API_KEY = here comes your API-Key
+
 ## Available Scripts
 
 In the project directory, you can run:
