@@ -44,19 +44,14 @@ function App() {
         <header className='header'>
           <LogoutButton handleLogout={handleLogout} />
           <h1 className='header__title'>English - German Vocabulary</h1>
-          <div className='greeting'>
-            Click on <strong>List</strong> in order to add, update or delete
-            vocabularies.
-            <br />
-            Click on <strong>Cards</strong> to test you vocabulary.
-          </div>
+
           {isAdmin && (
             <ul className='header__nav'>
               <NavLink exact='true' className='header__nav-link' to='/'>
-                <li className='header__nav-list'>List</li>
+                <li className='header__nav-list'>List view</li>
               </NavLink>
               <NavLink className='header__nav-link' to='/cards'>
-                <li className='header__nav-list'>Cards</li>
+                <li className='header__nav-list'>Card view</li>
               </NavLink>
             </ul>
           )}
@@ -72,6 +67,7 @@ function App() {
             <Route exact='true' path='/cards' element={<CardGroups />} />
           </Routes>
         </main>
+
       </div>
     </Router>
   ) : (
