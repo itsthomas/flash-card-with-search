@@ -459,14 +459,15 @@
   SweetAlert2 React extension
   Its styling should be outside of.App
 ======================================= */
-#swal2-content {
-  display: flex !important;
-  flex-direction: column;
-}
-
-.swal2-content #swal2-content img {
-  height: 100px;
-}
+// .sweetalert {
+//   h2 {
+//     font-size: 1.6rem;
+//     color: #000;
+//   }
+//   .text-muted {
+//     margin: 18px 0 10px;
+//   }
+// }
 
 /* =========================================
            Sign-in & Sign-up
