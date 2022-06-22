@@ -37,7 +37,7 @@ function Login({
         <p className='errorMsg'>{passwordError}</p>
 
         <div className='btnContainer'>
-          {hasAccount ? (
+          {!hasAccount ? (
             <>
               <button type='button' onClick={handleLogin}>
                 Sign in
