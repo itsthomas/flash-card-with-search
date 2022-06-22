@@ -37,7 +37,7 @@ function FlipCard({ card, number }) {
           {card.synonym !== '' ? (
             <div className='synonym'>
               {' '}
-              <em>Synonym:</em>
+              <em>Synonym / Example:</em>
               <br />
               {card.synonym}
             </div>

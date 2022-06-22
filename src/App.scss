@@ -114,14 +114,15 @@ body {
       padding: 0;
 
       &::after {
-        content: "X";
         position: absolute;
-        left: 5px;
-        top: 5px;
-        padding: 3px 6px;
-        border: 1px solid;
-        background-color: #fff;
-        border-radius: 15px;
+        left: 8px;
+        top: 8px;
+        content:'';
+        background: url('https://pic.onlinewebfonts.com/svg/img_269357.png');
+        width: 18px;
+        height: 20px;
+        background-size: 18px 20px; 
+        background-repeat: no-repeat;
       }
     }
 
@@ -152,11 +153,11 @@ body {
       border: none;
       outline: none;
       font-family: Arial, Helvetica, sans-serif;
-      font-size: 0.9rem;
+      font-size: 1rem;
       resize: none;
 
       &::placeholder {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         color: rgb(160, 158, 158);
       }
     }
@@ -289,10 +290,11 @@ body {
     display: flex;
     width: 300px;
     position: relative;
+    text-align: center;
     transition: transform 1s;
     transform-style: preserve-3d;
     margin-bottom: 12px;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     cursor: pointer;
 
     &-group {
@@ -379,7 +381,6 @@ body {
       background-color: white;
       border: 1px solid;
       margin-right: 10px;
-      border-radius: 15px;
       outline: none;
       cursor: pointer;
 
@@ -388,7 +389,7 @@ body {
       }
 
       &.selected {
-        background-color: #68b6fb;
+        background-color: #2D3142;
         color: white;
         font-weight: 600;
       }
@@ -400,8 +401,8 @@ body {
     background-image: url(https://cdn.onlinewebfonts.com/svg/img_495977.png);
     background-size: cover;
     background-position: right;
-    height: 17px;
-    width: 24px;
+    height: 25px;
+    width: 32px;
     position: absolute;
     top: 10px;
     right: 12px;
@@ -434,6 +435,7 @@ body {
     background: #fff;
     justify-content: center;
     align-items: center;
+    font-size: 1.2rem;
   }
 
   .card__btn-wrapper {
@@ -572,8 +574,8 @@ body {
   right: 12px;
   background-image: url(https://cdn.onlinewebfonts.com/svg/img_370182.png);
   background-size: cover;
-  height: 17px;
-  width: 14px;
+  height: 25px;
+  width: 24px;
   padding: 4px 8px;
   cursor: pointer;
   filter: opacity(0.3) drop-shadow(0 0 0 #333333);
