@@ -638,8 +638,18 @@ body {
 ========================================== */
 .search-bar-input {
   display: block;
-  width: 90%;
+  width: 100%;
   max-width: 400px;
-  padding: 8px;
+  padding: 8px 8px 8px 38px;
   margin: 0 auto 1rem auto;
+  background-image: url('https://pic.onlinewebfonts.com/svg/img_76495.png');
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-position: 5px 3px;
+  outline: 0;
+
+  #placeholder {
+    border-left: 1px solid;
+    padding-left: 8px;
+  }
 }
