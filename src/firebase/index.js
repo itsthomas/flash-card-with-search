@@ -5,7 +5,7 @@ import 'firebase/compat/auth'
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: 'AIzaSyAehGfPEzYsIlAcS3HWwjxgxzoPB29HtS4',
+  apiKey: process.env.REACT_APP_API_KEY,
   authDomain: 'react-apps-e06b2.firebaseapp.com',
   databaseURL: 'https://react-apps-e06b2.firebaseio.com',
   projectId: 'react-apps-e06b2',
