@@ -466,15 +466,11 @@ body {
   SweetAlert2 React extension
   Its styling should be outside of.App
 ======================================= */
-// .sweetalert {
-//   h2 {
-//     font-size: 1.6rem;
-//     color: #000;
-//   }
-//   .text-muted {
-//     margin: 18px 0 10px;
-//   }
-// }
+.swal2-html-container {
+  img {
+    max-width: 100%;
+  }
+}
 
 /* =========================================
            Sign-in & Sign-up
